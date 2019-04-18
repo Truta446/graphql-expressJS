@@ -1,0 +1,25 @@
+{
+  "name": "graphql-express",
+  "version": "1.0.0",
+  "description": "Init learning with SON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js --exec babel-node --presets babel-preset-env"
+  },
+  "author": "JuanLopes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1",
+    "graphql-tools": "^4.0.4",
+    "mongoose": "^5.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.11"
+  }
+}
