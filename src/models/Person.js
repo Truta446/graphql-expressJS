@@ -1,7 +1,7 @@
-import mongoose, { Schema } from 'mongoose'
+import mongoose, { Schema } from 'mongoose';
 
 const Person = new Schema({
-    
-})
+    name: String
+});
 
-export default mongoose.model('Person', Person)
+export default mongoose.model('Person', Person);
